@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Yoton.PageAccueil"
+             BackgroundColor="black">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Spacing="5" Padding="20,10">
+            
+            <StackLayout VerticalOptions="Center" Spacing="20" Padding="20,10">
+                <Image Source="https://www.logologo.com/logos/y-and-m-logoa.jpg" HeightRequest="50"/>
+            </StackLayout>
+            
+            <Label Text="Des milliers de talents à découvrir gratuitement sur Yoton" FontSize="22" FontAttributes="Bold"
+               
+               TextColor="White" HorizontalOptions="Center" HorizontalTextAlignment="Center" Padding="0, 20"/>
+
+            <Button Text="S'inscrire gratuitement" BackgroundColor="black" TextColor="White" TextTransform="None" FontSize="20" 
+                CornerRadius="50" BorderColor="Gray" BorderWidth="0.5"
+                VerticalOptions="Center" 
+                Clicked="NavigateButton_OnClicked"/>
+
+            <Button Text="Continuer avec Google" BackgroundColor="Black" TextColor="White" TextTransform="None" FontSize="20" 
+                CornerRadius="50" BorderColor="Gray" BorderWidth="0.5"
+                VerticalOptions="Center" 
+                HorizontalOptions="Fill" />
+
+            <Button Text="Continuer avec Facebook" BackgroundColor="Black" TextColor="White" TextTransform="None" FontSize="20" 
+                CornerRadius="50" BorderColor="Gray" BorderWidth="0.5"
+                VerticalOptions="Center" 
+                HorizontalOptions="Fill" />
+
+            <Button Text="Se connecter" BackgroundColor="Black" TextColor="White" TextTransform="None" FontSize="20" CornerRadius="50"
+                VerticalOptions="Center" 
+                HorizontalOptions="Fill" />
+
+            <Button Text="Continuer en tant qu'invité" BackgroundColor="Black" TextTransform="None" TextColor="White" FontSize="10"
+                VerticalOptions="Center" 
+                HorizontalOptions="Fill"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

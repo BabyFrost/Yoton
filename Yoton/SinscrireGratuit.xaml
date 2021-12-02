@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"  
+             x:Class="Yoton.SinscrireGratuit"
+             BackgroundColor="Black"
+             Title="Inscription">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center" Padding="10">
+            
+            <Label Text="Saisissez votre adresse e-mail" FontSize="25" TextColor="White" HorizontalOptions="Start" />
+            <Entry Placeholder="abc@gmail.com" ClearButtonVisibility="WhileEditing" Keyboard="Email" HorizontalOptions="Fill" />
+            <Label Text="Vous devrez confirmer cette adresse plus tard" FontSize="10" TextColor="White" HorizontalOptions="Start" />
+            <Button Text="Suivant" FontSize="20" BackgroundColor="black" TextColor="White" 
+                    CornerRadius="50" BorderColor="Gray" BorderWidth="0.5" 
+                    HorizontalOptions="CenterAndExpand" Margin="20" />
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

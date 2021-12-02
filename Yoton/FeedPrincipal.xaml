@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Yoton.FeedPrincipal"
+             BackgroundColor="DarkCyan">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label>Bonjour</Label>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Mbole Compilation</Label>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Makossa, Bikutsu compilation</Label>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="1" Grid.Column="0" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Mbole Compilation</Label>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="1" Grid.Column="1" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Makossa, Bikutsu compilation</Label>
+                        </StackLayout>
+                    </Grid>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout>
+                <Label> Decouverte </Label>
+                
+                <StackLayout Orientation="Horizontal">
+
+                    <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Mbole Compilation</Label>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Makossa, Bikutsu compilation</Label>
+                        </StackLayout>
+                    </Grid>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            <StackLayout>
+                <Label>Hip-Hop</Label>
+
+                <StackLayout Orientation="Horizontal">
+
+                    <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                        <StackLayout Grid.Row="0" Grid.Column="0" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Mbole Compilation</Label>
+                        </StackLayout>
+
+                        <StackLayout Grid.Row="0" Grid.Column="1" BackgroundColor="Black">
+                            <Image/>
+                            <Label>Makossa, Bikutsu compilation</Label>
+                        </StackLayout>
+                    </Grid>
+
+                </StackLayout>
+
+            </StackLayout>
+
+            <BoxView BackgroundColor="Black" VerticalOptions="EndAndExpand" Opacity="0.5" >
+                
+            </BoxView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
